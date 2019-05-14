@@ -1,0 +1,90 @@
+.container{
+  box-sizing:border-box;
+  width:960px;
+  flex: 1 0 auto;
+  margin:0 auto;
+  background-color:white;
+  padding:10px;
+  margin-top:7rem;
+  border:2px solid #dddddd;
+}
+
+input, textarea{
+  width:100%;
+  box-sizing:border-box;
+  margin-bottom: 1rem;
+  color:#777777;
+  font-family:'Montserrat', sans-serif;
+  font-size: 1rem;
+
+}
+
+label{
+  padding: 0.5rem 0;
+  line-height:2rem;
+}
+
+.message{
+  height:200px;
+}
+
+button{
+  background-color:#4aaaa5;
+  line-height:3rem;
+  padding: 0 3rem;
+  font-family: 'Montserrat', sans-serif;
+  border:none;
+  color: #ffffff;
+  border-radius:5px;
+  font-size:1rem;
+}
+
+@media only screen and (max-width:980px){
+  .container{
+    margin-left:20px;
+    margin-right:20px;
+    width: auto;
+    font-size:16px;
+  }
+
+  
+}
+
+@media only screen and (max-width:768px){
+  .container{
+    margin-left:20px;
+    margin-right:20px;
+    font-size:16px;
+  }
+
+  
+}
+
+@media only screen and (max-width:640px){
+  
+  .container{
+    margin-left:20px;
+    margin-right:20px;
+    font-size:16px;
+    margin-top:1.25rem;
+  }
+
+  
+}
+
+input:focus{
+  outline:none;
+  border-color: #48b873;
+  box-shadow: 0px 0px 1px 0px #48b873;
+  border-style: solid;
+}
+
+textarea:focus{
+  outline: none; /*block the defualt blue outline*/
+  border-color: #48b873;
+  box-shadow: 0px 0px 1px 1px #48b873;
+}
+
+button:hover{
+  background-color: #48b873;
+}
